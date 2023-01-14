@@ -12,14 +12,6 @@ font-family: inherit;
       gap: 30px;
 }
 
-#first {
-  height: 40px;
-  width: 300px:
-    border: none;
-  border-radius: 15px:
-}
-
-
 .description {
   display: inherit;
   justify-content: inherit;
@@ -29,6 +21,17 @@ font-family: inherit;
   width: 100%;
   z-index: 2;
   font-family: var(--font-mono);
+}
+
+.main button {
+  background-color: black;
+    height: 50px;
+    color: white;
+    font-family: inherit;
+    font-size: 25px;
+    border-radius: 15px;
+    border: none;
+    margin-bottom: 15px;
 }
 
 .description a {
@@ -45,6 +48,7 @@ font-family: inherit;
   background-color: rgba(var(--callout-rgb), 0.5);
   border: 1px solid rgba(var(--callout-border-rgb), 0.3);
   border-radius: var(--border-radius);
+  margin-right: 50px;
 }
 
 .code {
@@ -53,10 +57,12 @@ font-family: inherit;
 }
 
 .grid {
-  display: grid;
-  grid-template-columns: repeat(4, minmax(25%, auto));
-  width: var(--max-width);
-  max-width: 100%;
+      display: flex;
+    flex-direction: column;
+    grid-template-columns: repeat(4,minmax(25%,auto));
+    width: var(--max-width);
+    max-width: 100%;
+    text-align: center;
 }
 
 .card {
