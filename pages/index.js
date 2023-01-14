@@ -39,8 +39,8 @@ const CheckLogin = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <label>First Name:</label>
-        <input
+        <label className={styles.text}>First Name:</label>
+        <input className={styles.input}
         type="text"
         id="first"
         name="first"
@@ -49,8 +49,8 @@ const CheckLogin = () => {
         onChange={(e=> setFormData({...formData, firstName: e.target.value}))}
         />
 
-        <label>UserName:</label>
-        <input
+        <label className={styles.text}>Userame:</label>
+        <input className={styles.input}
         type="text"
         id="first"
         name="first"
