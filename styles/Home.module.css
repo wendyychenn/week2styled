@@ -32,6 +32,15 @@ font-family: inherit;
     border-radius: 15px;
     border: none;
     margin-bottom: 15px;
+  padding-left: 10px;
+    padding-right: 10px;
+}
+
+.main input {
+  height: 35px;
+    width: 350px;
+    border: none;
+    border-radius: 15px;
 }
 
 .description a {
