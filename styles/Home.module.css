@@ -41,6 +41,7 @@ font-family: inherit;
     width: 350px;
     border: none;
     border-radius: 15px;
+  padding-left: 10px;
 }
 
 .description a {
