@@ -8,18 +8,13 @@
 }
 
 .Home_main__nLjiQ {
-background-color: rgb(77 101 135);
+  background-color: rgb(77 101 135);
 color: white;
 font-size: 40px;
 font-family: inherit;
 }
 
-#first {
-  height: 50px;
-    width: 300px;
-    border: none;
-    border-radius: 15px;
-}
+
 
 .description {
   display: inherit;
