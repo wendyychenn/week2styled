@@ -12,7 +12,12 @@ font-family: inherit;
       gap: 30px;
 }
 
-
+#first {
+  height: 40px;
+  width: 300px:
+    border: none;
+  border-radius: 15px:
+}
 
 
 .description {
