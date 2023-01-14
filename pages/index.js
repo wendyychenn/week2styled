@@ -41,6 +41,7 @@ const CheckLogin = () => {
       <main className={styles.main}>
         <label className={styles.text}>First Name:</label>
         <input className={styles.input}
+        class="inputbox"  
         type="text"
         id="first"
         name="first"
@@ -51,6 +52,7 @@ const CheckLogin = () => {
 
         <label className={styles.text}>Username:</label>
         <input className={styles.input}
+        class="inputbox"       
         type="text"
         id="first"
         name="first"
