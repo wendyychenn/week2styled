@@ -37,7 +37,7 @@ export default function Counter() {
         <div className={styles.description}>
           <p>
             COUNTER &nbsp;
-            <code className={styles.code}>WElcome {isUser}</code>
+            <code className={styles.code}>Welcome {isUser}</code>
           </p>
           <div>
             <a
