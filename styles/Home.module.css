@@ -44,6 +44,10 @@ font-family: inherit;
   padding-left: 10px;
 }
 
+.main p {
+  margin-bottom: 20px;
+}
+
 .description a {
   display: flex;
   justify-content: center;
