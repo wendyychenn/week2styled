@@ -5,10 +5,13 @@
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
-  background-color: rgb(77 101 135);
-    color: white;
-    font-size: 40px;
-    font-family: inherit;
+}
+
+.Home_main__nLjiQ {
+background-color: rgb(77 101 135);
+color: white;
+font-size: 40px;
+font-family: inherit;
 }
 
 .description {
