@@ -49,7 +49,7 @@ const CheckLogin = () => {
         onChange={(e=> setFormData({...formData, firstName: e.target.value}))}
         />
 
-        <label className={styles.text}>Userame:</label>
+        <label className={styles.text}>Username:</label>
         <input className={styles.input}
         type="text"
         id="first"
